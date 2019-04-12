@@ -19,7 +19,6 @@ body {
 .hleft {
     height: 200px;
     width: 432px;
-    background-image: url(./logo.png);
     overflow: hidden;
 }
 
