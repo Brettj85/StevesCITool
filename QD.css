@@ -18,9 +18,12 @@ body {
 }
 
 .hleft {
-    height: 200px;
-    width: 432px;
+    margin-left: 20px;
+    height: auto;
+    width: auto;
     overflow: hidden;
+    font-size: 50px;
+    text-align: center;
 }
 
 .menu {
