@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.head {
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.hleft {
+    height: 200px;
+    width: 432px;
+    background-image: url(./logo.png);
+    overflow: hidden;
+}
+
+.menu {
+    width: 400px;
+    height: 100%;
+    background-color: black;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    overflow: auto;
+}
+
+.menu-item {
+    height: 20px;
+    width: 100px;
+    color: black;
+    font-weight: bolder;
+    align-self: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+}
+menu-item.div {
+    width: auto;
+    height: auto;
+}
+
+.menu-item:hover {
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    background-position: left bottom;
+}
+
+.diff-report {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;    
+    border-right: 2px solid white;
+}
+
+.diff-report-title {
+    height: auto;
+    width: 95%;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.diff-report-content {
+    height: 100%;
+    width: 95%;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+.compare {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.differences {
+    height: calc(100vh - 360px);
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+}
+
+.first-text {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+.second-text {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+
+.foot {
+    height: 180px;
+    width: 100%;
+    border-top: 2px solid black;
+    background-color: black;
+}
